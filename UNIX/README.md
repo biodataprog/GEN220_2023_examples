@@ -12,7 +12,7 @@ chmod +x hello.sh # set permission to executable
 
 Try some other commands
 =====
-`date`
-`who` # see who is logged in
-`wc -l FILENAME` will print number lines in a file
-`who | wc -l` will take output from one command and PIPE (|) it to another program- this counts how many people are logged in
+* `date` prints the current date
+* `who` see who is logged in
+* `wc -l hello.sh` will print number lines in a file, in this case, the hello.sh file
+* `who | wc -l` will take output from one command and PIPE (|) it to another program- this counts how many people are logged in
