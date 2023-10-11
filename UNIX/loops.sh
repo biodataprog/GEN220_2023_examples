@@ -1,4 +1,6 @@
-#!/bin/ksh
+#!/bin/bash -l
+#SBATCH -p short -c 2 --mem 1gb --out loops_output.%A.log
+
 a=0
 for n in $(seq 10)
 do
