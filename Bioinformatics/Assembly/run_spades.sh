@@ -5,4 +5,5 @@ ln -s /bigdata/gen220/shared/data-examples/asm/E_coli/Ecoli_K12_Simreads_R1.fq.g
 module load spades
 CPU=24
 MEM=48
-spades.py -1 Ecoli_K12_Simreads_R1.fq.gz -2 Ecoli_K12_Simreads_R2.fq.gz -o new_spades_test -t $CPU --mem $MEM
+spades.py -1 Ecoli_K12_Simreads_R1.fq.gz -2 Ecoli_K12_Simreads_R2.fq.gz \
+	-o new_spades_test -t $CPU --mem $MEM --isolate
