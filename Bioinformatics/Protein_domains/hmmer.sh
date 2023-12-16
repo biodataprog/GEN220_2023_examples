@@ -4,4 +4,4 @@
 module load hmmer
 module load db-pfam
 
-hmmscan --cut_ga --domtbl Sacch.Pfam.hmmscan.domtbl --cpus 8 $PFAM_DB/Pfam-A.hmm Saccharomyces_cerevisiae.peps.fa > Sacch.Pfam.hmmscan
+hmmscan --cut_ga --domtbl Sacch.Pfam.hmmscan.domtbl --cpu 8 $PFAM_DB/Pfam-A.hmm Saccharomyces_cerevisiae.peps.fa > Sacch.Pfam.hmmscan
