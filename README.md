@@ -8,7 +8,7 @@ __this is in bold__
 * step the first
 * step the second
 * third point
-
+4. four
 1. one fish
 1. two fish
 1. three fish
